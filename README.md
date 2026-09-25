@@ -1,4 +1,6 @@
-# Blocks — Automação E2E do Cadastro (Cypress + Cucumber/BDD)
+JONATAS CAMPISTA DA COSTA
+
+## Blocks — Automação E2E do Cadastro (Cypress + Cucumber/BDD)
 
 Automação end-to-end do fluxo de cadastro de usuários de
 **https://www.blocksrvt.com/pt/registrar**, com cenários escritos em BDD (Gherkin)
