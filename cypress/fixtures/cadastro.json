@@ -1,0 +1,22 @@
+{
+  "path": "/pt/registrar",
+  "loginPath": "/pt/login",
+  "pageTitle": "Blocks® | Cadastro",
+  "defaults": {
+    "firstName": "QA",
+    "lastName": "Automacao",
+    "emailPrefix": "qa",
+    "emailDomain": "example.com",
+    "password": "QaTeste@2024",
+    "wrongConfirmPassword": "QaTeste@9999",
+    "country": { "label": "Brazil", "code": "BR" },
+    "familyLanguage": { "label": "Famílias em Português", "code": "pt-br" },
+    "workField": { "label": "Arquiteto", "code": "Architect" },
+    "origin": { "label": "Google", "code": "Google" }
+  },
+  "messages": {
+    "invalidEmail": "This is not a valid email.",
+    "passwordsMismatch": "Passwords must match",
+    "requiredField": "This field has to be filled."
+  }
+}

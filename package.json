@@ -1,0 +1,21 @@
+{
+  "name": "blocks-cadastro-e2e",
+  "version": "1.0.0",
+  "description": "Automação E2E do fluxo de cadastro da Blocks com Cypress + Cucumber (BDD)",
+  "scripts": {
+    "cy:open": "cypress open --e2e --browser electron",
+    "cy:run": "cypress run",
+    "cy:run:headed": "cypress run --headed",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:real-api": "cypress run --env signupApiMode=real",
+    "test": "cypress run"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^28.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^13.17.0",
+    "esbuild": "^0.28.2"
+  },
+  "private": true
+}

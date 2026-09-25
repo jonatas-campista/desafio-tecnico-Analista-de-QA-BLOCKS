@@ -1,0 +1,7 @@
+{
+  "stepDefinitions": ["cypress/support/step_definitions/**/*.js"],
+  "html": {
+    "enabled": true,
+    "output": "reports/cucumber-report.html"
+  }
+}
